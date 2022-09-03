@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>CV</title>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header class="header">
+                <div class="header__container _container">
+                    <div class="header__title flex-container">
+                        <a href="" class="header__title-link">CV</a>
+                    </div>
+
+                    <nav class="header__navigation">
+                        <ul class="navigation">
+                            <li class="navigation__item">
+                                <a href="#about" class="navigation__link">
+                                    About
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#edu-lang" class="navigation__link">
+                                    Education/Languages
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a href="#skills-code" class="navigation__link">
+                                    Skills/Code
+                                </a>
+                            </li>
+                            <li class="navigation__item">
+                                <a
+                                    href="#contacts-project"
+                                    class="navigation__link"
+                                >
+                                    Contacts/Projects
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <main class="main">
+                <div class="main__container _container">
+                    <section class="main__hero">
+                        <div class="hero__container _container">
+                            <div class="hero__img">
+                                <img
+                                    src="./img/photo_2021-11-24_14-06-00.jpg"
+                                    alt="photo"
+                                />
+                            </div>
+                            <div class="hero__title flex-container">
+                                <h1 class="hero__name">ILNAR ESANOV</h1>
+                                <h2 class="hero__position">
+                                    Frontend Developer
+                                </h2>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="about" class="about">
+                        <div class="about__container flex-container _container">
+                            <h2 class="about__title brown-color">
+                                Briefly about myself
+                            </h2>
+                            <div class="about__body flex-container">
+                                <p class="about__text">
+                                    So, I'm a beginner front-end developer. I
+                                    know HTML markup and CSS well. I know how to
+                                    work in Figma. I've learned BEM recently. In
+                                    general, I know a lot, what I don’t know -
+                                    I’ll find it, what I won’t find - I’ll
+                                    competently ask my colleagues. I am
+                                    currently looking for a job or internship in
+                                    Tashkent. Thanks for reading :)
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="edu-lang" class="edu-lang">
+                        <div class="edu-lang__container _container">
+                            <div class="edu-lang__education flex-container">
+                                <h2 class="education__title brown-color">
+                                    Education
+                                </h2>
+                                <ul class="education__list flex-container">
+                                    <li class="education__item">
+                                        Uzbekistan State World Languages
+                                        University: 2020-2024
+                                    </li>
+                                    <li class="education__item">
+                                        Build Responsive Real-World Websites
+                                        using HTML and CSS (Online course on
+                                        Udemy,
+                                        <a
+                                            href="https://www.udemy.com/certificate/UC-c7f14fee-7c35-49f8-9a71-c23d628db13c/"
+                                            class="education__link"
+                                            target="_blank"
+                                            >finished</a
+                                        >)
+                                    </li>
+                                    <li class="education__item">
+                                        The Complete JavaScript Course 2022
+                                        (Online course on Udemy, in progress)
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="edu-lang__languages flex-container">
+                                <h2 class="languages__title">Languages</h2>
+                                <ul class="languages__list flex-container">
+                                    <li class="languages__item">
+                                        Russian - Native
+                                    </li>
+                                    <li class="languages__item">
+                                        English - B2 (IELTS Overall 6.0)
+                                    </li>
+                                    <li class="languages__item">
+                                        Uzbek - Comprehent user
+                                    </li>
+                                    <li class="languages__item">
+                                        German - Beginner
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="skills-code" class="skills-code">
+                        <div class="skills-code__container _container">
+                            <div class="skills-code__skills flex-container">
+                                <h2 class="skills__title">Skills</h2>
+                                <ul class="skills__list flex-container">
+                                    <li class="skills__item">
+                                        HTML5, CSS3, Sass
+                                    </li>
+                                    <li class="skills__item">BEM</li>
+                                    <li class="skills__item">
+                                        JavaScript Basics
+                                    </li>
+                                    <li class="skills__item">Figma</li>
+                                    <li class="skills__item">Git, GitHub</li>
+                                </ul>
+                            </div>
+                            <div class="skills-code__code">
+                                <div class="code__title">Code Example</div>
+                                <pre>
+                                    <code>
+function fakeBin(x) {
+    let tmp = "";
+    for (let i = 0; i &lt; x.length; i++) {
+        if (x[i] &lt; "5") tmp += "0";
+        else if (x[i] >= "5") tmp += "1";
+    } return tmp;
+}                                    
+                                    </code>
+                                </pre>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="contacts-project" class="contacts-project">
+                        <div class="contacts-project__container _container">
+                            <div
+                                class="contacts-project__contacts flex-container"
+                            >
+                                <h2 class="contacts__title">Contacts</h2>
+                                <ul class="contacts__list flex-container">
+                                    <li class="contacts__item">
+                                        <img
+                                            src="./img/icons/paper-plane-outline.svg"
+                                            alt="telegram"
+                                        />
+                                        <a
+                                            href="https://t.me/walker_027"
+                                            class="contacts__link"
+                                            target="_blank"
+                                            >Telegram</a
+                                        >
+                                    </li>
+                                    <li class="contacts__item">
+                                        <img
+                                            src="./img/icons/logo-linkedin.svg"
+                                            alt="linkedin"
+                                        />
+                                        <a
+                                            href="https://www.linkedin.com/in/ilnar-esanov-24465720b"
+                                            class="contacts__link"
+                                            target="_blank"
+                                            >LinkedIn</a
+                                        >
+                                    </li>
+                                    <li class="contacts__item">
+                                        <img
+                                            src="./img/icons/call-outline.svg"
+                                            alt=""
+                                        />
+                                        <p class="contacts__text">
+                                            +998 97 152 00 27
+                                        </p>
+                                    </li>
+                                    <li class="contacts__item">
+                                        <img
+                                            src="./img/icons/mail-outline.svg"
+                                            alt=""
+                                        />
+                                        <p class="contacts__text">
+                                            ilnaresanov2002@gmail.com
+                                        </p>
+                                    </li>
+                                    <li class="contacts__item">
+                                        <img
+                                            src="./img/icons/location-outline.svg"
+                                            alt=""
+                                        />
+                                        <p class="contacts__text">
+                                            Tashkent, Uzbekistan
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div
+                                class="contacts-project__project flex-container"
+                            >
+                                <h2 class="project__title">Projects</h2>
+                                <ul class="project__body">
+                                    <li class="project__text">
+                                        <a
+                                            href="https://omnifood-walker.netlify.app/"
+                                            class="project__link"
+                                            target="_blank"
+                                            >Omnifood</a
+                                        >
+                                        - my first project that I did by myself
+                                        after finishing the HTML and CSS course
+                                        on Udemy.
+                                    </li>
+                                    <li class="project__text">
+                                        <a
+                                            href="https://walkeed.github.io/Relvise"
+                                            class="project__link"
+                                            target="_blank"
+                                            >Relvise</a
+                                        >
+                                        - just a random project for practice.
+                                    </li>
+                                    <li class="project__text">
+                                        <a
+                                            href="https://walkeed.github.io/Digital-Clock"
+                                            class="project__link"
+                                            target="_blank"
+                                            >Digital clock</a
+                                        >
+                                    </li>
+                                    <li class="project__text">
+                                        <a
+                                            href="http://WaLkeeD.github.io/Weight-converter"
+                                            class="project__link"
+                                            target="_blank"
+                                            >Weight converter</a
+                                        >
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </main>
+            <footer class="footer">
+                <div class="footer__container _container">
+                    <a
+                        class="footer__link"
+                        target="_blank"
+                        href="https://github.com/WaLkeeD"
+                        >GitHub</a
+                    >
+                    <p class="footer__year">
+                        Directed by 𝐖𝔞𝕃Ќєŕ &copy; <span class="year">2027</span>
+                    </p>
+
+                    <div class="footer__logo">
+                        <a
+                            href="https://rs.school/js-stage0/"
+                            class="footer__logo-link"
+                            target="_blank"
+                        >
+                            <img src="./img/card_original.jpg" alt="logo-rs" />
+                        </a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        ></script>
+        <script src="./script.js"></script>
+    </body>
+</html>
