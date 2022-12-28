@@ -1,2 +1,2 @@
 #CV
-https://walkeed.github.io/rsschool-cv-html/
+https://walkeed.github.io/CV/
